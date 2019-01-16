@@ -39,6 +39,8 @@ Rails.application.configure do
   # Highlight code that triggered database queries in logs.
   config.active_record.verbose_query_logs = true
 
+  # to render an HTML page with debugging information, use the value :default
+  config.debug_exception_response_format = :default
 
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
