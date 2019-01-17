@@ -5,7 +5,7 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-rentals = Rental.create[{
+rentals = Rental.create([{
     type: 'rentals',
     id: 'grand-old-mansion',
     attributes: {
@@ -41,4 +41,4 @@ rentals = Rental.create[{
       image: 'https://upload.wikimedia.org/wikipedia/commons/f/f7/Wheeldon_Apartment_Building_-_Portland_Oregon.jpg',
       description: "Convenience is at your doorstep with this charming downtown rental. Great restaurants and active night life are within a few feet."
     }
-  }];
+  }]);
